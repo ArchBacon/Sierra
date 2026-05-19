@@ -119,6 +119,13 @@
 		{
 			"Name": "IKRig",
 			"Enabled": true
+		},
+		{
+			"Name": "XInputDevice",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }

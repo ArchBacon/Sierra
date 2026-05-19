@@ -126,7 +126,7 @@ FSpringForces USuspensionForceComponent::CalculateSpringForce(
 
 	// F=-K·(1+p·x)·x	Hooke's law (F=Kx) extended for linearly progressive spring rate
 	const float CompressionDistance = FMath::Min(TraceDistance - Hit.Distance, Specs.TravelSpecs) * Hit.bBlockingHit;
-	const float SpringRate = Specs.SpringSpecs * (1.0f + (Specs.SpringProgression / 100.f) * CompressionDistance);
+	const float SpringRate = Specs.SpringSpecs * (1.0f + (Specs.SpringProgression) * CompressionDistance);
 	const float SpringForce = -SpringRate * CompressionDistance;
 	const float ContactSpeed = (CompressionDistance - Suspension->CompressionDistance) / DeltaTime;
 	
@@ -154,13 +154,13 @@ float USuspensionForceComponent::CalculateDamperForce(const float ContactSpeed, 
 	float DamperForce = 0.0f;
 	if (ContactSpeed > 0.0f) // Compression — opposes jounce, same direction as spring (negative)
 	{
-		const float BlowoutThreshold = Specs.ShockValving * Specs.ShockSpecs * FMath::Pow(Specs.ShockBlowOut, Specs.ShockDigression);
+		const float BlowoutThreshold = Specs.ShockValving * Specs.ShockSpecs * FMath::Pow(Specs.ShockBlowOut, Specs.ShockDigression * 100.f);
 		DamperForce = -(Specs.ShockValving * Specs.ShockSpecs) * FMath::Pow(Speed, Specs.ShockDigression);
 		DamperForce = FMath::Max(DamperForce, -BlowoutThreshold);
 	}
 	else if (ContactSpeed < 0.0f) // Extension — opposes rebound, reduces lift (positive)
 	{
-		const float BlowoutThreshold = Specs.ShockValving * Specs.ShockExtSpecs * FMath::Pow(Specs.ShockBlowOut, Specs.ShockDigression);
+		const float BlowoutThreshold = Specs.ShockValving * Specs.ShockExtSpecs * FMath::Pow(Specs.ShockBlowOut, Specs.ShockDigression * 100.f);
 		DamperForce = (Specs.ShockValving * Specs.ShockExtSpecs) * FMath::Pow(Speed, Specs.ShockDigression);
 		DamperForce = FMath::Min(DamperForce, BlowoutThreshold);
 	}

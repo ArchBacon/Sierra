@@ -47,7 +47,6 @@ void UAccelerationForceComponent::TickComponent(const float DeltaTime, const ELe
 
 	// Update values
 	UpdateRPM();
-	ApplyDriveForce();
 	
 	// Resisting forces
 	ApplyDrag();
@@ -61,6 +60,10 @@ void UAccelerationForceComponent::TickComponent(const float DeltaTime, const ELe
 	) {
 		ApplyBrakes(KmH);
 		GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Red, "Braking");
+	}
+	else
+	{
+		ApplyDriveForce();
 	}
 }
 
@@ -79,15 +82,16 @@ void UAccelerationForceComponent::ApplyRollingResistance() const
 		const float WheelRadius = (Suspension->bIsFront ? TireConfig->DiameterFront : TireConfig->DiameterRear) / 2.0f * 100.f;
 		const FVector WheelForward = Suspension->GetForwardVector();
 		const FVector WheelVelocity = Vehicle->GetChassis()->GetPhysicsLinearVelocityAtPoint(Suspension->GetComponentLocation());
+		const int WheelRollDirection = FMath::Sign(FVector::DotProduct(WheelVelocity, WheelForward));
 
 		const float AngularSpeed = FVector::DotProduct(WheelVelocity, WheelForward) / WheelRadius;
-		const FVector RollingResistance = -TireConfig->RollingResistanceScalarVSpeedCurve->GetFloatValue(FMath::Abs(AngularSpeed)) * WheelForward;
+		const FVector RollingResistance = -TireConfig->RollingResistanceScalarVSpeedCurve->GetFloatValue(FMath::Abs(AngularSpeed)) * WheelForward * WheelRollDirection;
 
 		Vehicle->GetChassis()->AddForceAtLocation(RollingResistance * 100.f, Suspension->GetComponentLocation());
-
+		
 		// Debug
-		const FVector RRStart = Vehicle->GetActorLocation() - (Vehicle->GetActorForwardVector() * 10.f);
-		DrawDebugDirectionalArrow(GetWorld(), RRStart, RRStart + RollingResistance, 50.f, FColor::Black, false, -1, 1, 2.f);
+		// const FVector RRStart = Suspension->GetComponentLocation();
+		// DrawDebugDirectionalArrow(GetWorld(), RRStart, RRStart + RollingResistance * 10.f, 50.f, FColor::Purple, false, -1, 1, 2.f);
 	}
 }
 
@@ -100,8 +104,8 @@ void UAccelerationForceComponent::ApplyDrag() const
 	Vehicle->GetChassis()->AddForce(Drag * 100.f);
 
 	// Debug
-	const FVector DragStart = Vehicle->GetActorLocation() + (Vehicle->GetActorForwardVector() * 10.f);
-	DrawDebugDirectionalArrow(GetWorld(), DragStart, DragStart + Drag, 50.f, FColor::Orange, false, -1, 1, 3.f);
+	// const FVector DragStart = Vehicle->GetActorLocation();
+	// DrawDebugDirectionalArrow(GetWorld(), DragStart, DragStart + Drag * 0.3f, 50.f, FColor::Orange, false, -1, 1, 3.f);
 }
 
 void UAccelerationForceComponent::ApplyDriveForce() const
@@ -126,7 +130,7 @@ void UAccelerationForceComponent::ApplyDriveForce() const
 	const float GearSign = TransmissionComponent->IsInReverseGear() ? -1.f : 1.f;
 	const float FrictionForce = FrictionTorque * TransmissionComponent->GetDriveTrainMultiplier() / WheelRadius * GearSign;
 	const float ResistanceForce = ResistanceTorque * TransmissionComponent->GetDriveTrainMultiplier() / WheelRadius * GearSign;
-	float TotalForce = DriveForce + (FrictionForce + ResistanceForce * 0.5f * (TransmissionComponent->IsInReverseGear() ? 0.5f : 1.0f));
+	float TotalForce = DriveForce + (FrictionForce + ResistanceForce) * 0.25f;
 
 	// Prevent engine braking from moving a nearly stationary car
 	if (FMath::Abs(FVector::DotProduct(Vehicle->GetActorRightVector(), Velocity)) < 10.f && FMath::IsNearlyZero(Throttle, 0.01f))
@@ -139,12 +143,16 @@ void UAccelerationForceComponent::ApplyDriveForce() const
 	const FVector TractionL = Suspension[0]->GetForwardVector() * (TotalForce * 0.5f - LockingTorque);
 	const FVector TractionR = Suspension[1]->GetForwardVector() * (TotalForce * 0.5f + LockingTorque);
 
-	Vehicle->GetChassis()->AddForceAtLocation(TractionL * 100.f, Suspension[0]->GetComponentLocation());
-	Vehicle->GetChassis()->AddForceAtLocation(TractionR * 100.f, Suspension[1]->GetComponentLocation());
+	if (Suspension[0]->bIsGrounded)
+		Vehicle->GetChassis()->AddForceAtLocation(TractionL * 100.f, Suspension[0]->GetComponentLocation());
+	
+	if (Suspension[1]->bIsGrounded)
+		Vehicle->GetChassis()->AddForceAtLocation(TractionR * 100.f, Suspension[1]->GetComponentLocation());
 	
 	// Debug
-	DrawDebugDirectionalArrow(GetWorld(), Suspension[0]->GetComponentLocation(), Suspension[0]->GetComponentLocation() + TractionL, 50.f, FColor::Green, false, -1, 1, 2.f);
-	DrawDebugDirectionalArrow(GetWorld(), Suspension[1]->GetComponentLocation(), Suspension[1]->GetComponentLocation() + TractionR, 50.f, FColor::Green, false, -1, 1, 2.f);
+	// bool bThrottlePressed = !UKismetMathLibrary::NearlyEqual_FloatFloat(Throttle, 0.0f);
+	// DrawDebugDirectionalArrow(GetWorld(), Suspension[0]->GetComponentLocation(), Suspension[0]->GetComponentLocation() + TractionL * 0.02f, 50.f, bThrottlePressed ? FColor::Green : FColor::Turquoise, false, -1, 1, 2.f);
+	// DrawDebugDirectionalArrow(GetWorld(), Suspension[1]->GetComponentLocation(), Suspension[1]->GetComponentLocation() + TractionR * 0.02f, 50.f, bThrottlePressed ? FColor::Green : FColor::Turquoise, false, -1, 1, 2.f);
 }
 
 void UAccelerationForceComponent::ApplyBrakes(const float Speed) const
@@ -154,20 +162,26 @@ void UAccelerationForceComponent::ApplyBrakes(const float Speed) const
 	
 	for (const auto Suspension : Vehicle->GetFrontSuspension())
 	{
+		if (!Suspension->bIsGrounded)
+			continue;
+		
 		const float WheelRadius = TireConfig->DiameterFront / 2.0f;
 		const float BrakeForce = (BrakesConfig->FrontBrakeTorqueVsSpeedCurve->GetFloatValue(Speed) + BrakesConfig->FrontBrakeOffset + BrakesConfig->BackwardsExtraBrakeStrength * bIsReversing) / WheelRadius;
 
 		Vehicle->GetChassis()->AddForceAtLocation(Suspension->GetForwardVector() * ForceDirection * BrakeForce * 100.f, Suspension->GetComponentLocation());
-		DrawDebugDirectionalArrow(GetWorld(), Suspension->GetComponentLocation(), Suspension->GetComponentLocation() + Suspension->GetForwardVector() * ForceDirection * BrakeForce, 50.f, FColor::Red, false, -1, 1, 2.f);
+		// DrawDebugDirectionalArrow(GetWorld(), Suspension->GetComponentLocation(), Suspension->GetComponentLocation() + Suspension->GetForwardVector() * ForceDirection * BrakeForce * 0.05f, 50.f, FColor::Red, false, -1, 1, 2.f);
 	}
 
 	for (const auto Suspension : Vehicle->GetRearSuspension())
 	{
+		if (!Suspension->bIsGrounded)
+			continue;
+		
 		const float WheelRadius = TireConfig->DiameterRear / 2.0f;
 		const float BrakeForce = (BrakesConfig->RearBrakeTorque + BrakesConfig->RearBrakeOffset + BrakesConfig->BackwardsExtraBrakeStrength * bIsReversing) / WheelRadius;
 
 		Vehicle->GetChassis()->AddForceAtLocation(Suspension->GetForwardVector() * ForceDirection * BrakeForce * 100.f, Suspension->GetComponentLocation());
-		DrawDebugDirectionalArrow(GetWorld(), Suspension->GetComponentLocation(), Suspension->GetComponentLocation() + Suspension->GetForwardVector() * ForceDirection * BrakeForce, 50.f, FColor::Red, false, -1, 1, 2.f);
+		// DrawDebugDirectionalArrow(GetWorld(), Suspension->GetComponentLocation(), Suspension->GetComponentLocation() + Suspension->GetForwardVector() * ForceDirection * BrakeForce * 0.05f, 50.f, FColor::Red, false, -1, 1, 2.f);
 	}
 }
 

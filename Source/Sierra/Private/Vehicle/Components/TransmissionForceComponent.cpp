@@ -73,7 +73,12 @@ void UTransmissionForceComponent::TickComponent(
 			Gear = ReverseGear;
 		}
 	}
+	
 	if (KmH > 0.0f && Gear == ReverseGear)
+	{
+		Gear = NeutralGear;
+	}
+	if (KmH < 0.0f && Gear > NeutralGear)
 	{
 		Gear = NeutralGear;
 	}
