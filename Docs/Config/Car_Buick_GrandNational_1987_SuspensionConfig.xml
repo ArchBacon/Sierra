@@ -1,0 +1,808 @@
+<RaceVehicleSuspensionConfigData Guid="75da7e06-31bf-84b6-8846-b9524d3293f3">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_SuspensionConfig</Name>
+    <ShockValvingRear>175</ShockValvingRear>
+    <CamberFront Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>-10</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>0</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,29</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,43125</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,57</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,71</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </CamberFront>
+    <Caster Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>7</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>10</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1421488</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2343802</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5454544</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,6975208</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8231404</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </Caster>
+    <ToeRear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>-10</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>0</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,295</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,428</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,57</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,85</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,895</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ToeRear>
+    <ShockSpecsRear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>29,8</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,08666667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,21</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4133333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5866666</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7416667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ShockSpecsRear>
+    <ShockExtSpecsRear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>46,1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,11</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2733333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4716667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,625</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7966667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,865</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ShockExtSpecsRear>
+    <SwaySpecsFront Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>23,5</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1616667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2733333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,41</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,595</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7533333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8816667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </SwaySpecsFront>
+    <ToeFront Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>-9</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>0</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,29</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,43</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,57</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,71</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,84875</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ToeFront>
+    <ShockSpecsFront Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>20,8</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,095</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,1766667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,275</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,41</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,54</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,65</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ShockSpecsFront>
+    <SwaySpecsRear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>32</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,19</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3716667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4683333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,635</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7816667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8766667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </SwaySpecsRear>
+    <ShockExtSpecsFront Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>37,5</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,07666667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,1783333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,3116667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,53</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7416667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,9066667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ShockExtSpecsFront>
+    <CamberRear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>-10</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>0</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,29125</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4325</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,57</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,71125</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </CamberRear>
+    <ShockDigressionRear>0,8</ShockDigressionRear>
+    <RideHeightSpecsFront>10</RideHeightSpecsFront>
+    <SpringSpecsFront>370</SpringSpecsFront>
+    <TravelSpecsRear>30</TravelSpecsRear>
+    <SpringProgressionFront>0,07</SpringProgressionFront>
+    <ShockDigressionFront>0,8</ShockDigressionFront>
+    <ShockBlowOut>1,1</ShockBlowOut>
+    <ShockValvingFront>175</ShockValvingFront>
+    <TravelSpecsFront>30</TravelSpecsFront>
+    <SpringSpecsRear>414</SpringSpecsRear>
+    <SpringProgressionRear>0,07</SpringProgressionRear>
+    <RideHeightSpecsRear>10</RideHeightSpecsRear>
+</RaceVehicleSuspensionConfigData>

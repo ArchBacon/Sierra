@@ -1,0 +1,94 @@
+<RaceVehicleTireConfigData Guid="b5712722-e1de-cfdd-bc6e-14bce50dc0f6">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_TireConfig</Name>
+    <StaticGripOffThrottle>0,2</StaticGripOffThrottle>
+    <SkidMarkDataRear>[Ebx] Vehicles/Tuning/Default_Car/DriveWheelSkidMarkConfig [9bf4a444-a4fc-0b18-8da6-1e3d9f2c877d]</SkidMarkDataRear>
+    <AnalyticalTireDataFront>[Ebx] Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_AnalyticalTireConfigFront [29dffc34-cb5a-4843-95a1-d0a35e51a1a1]</AnalyticalTireDataFront>
+    <RollingResistanceScalarVSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>60</x>
+                <y>10</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>-7,660145</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,08099174</x>
+                <y>0</y>
+                <z>15,32029</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3143251</x>
+                <y>0,2857143</y>
+                <z>-7,130374</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4132232</x>
+                <y>0,3892858</y>
+                <z>1,008345</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5570248</x>
+                <y>0,5357147</y>
+                <z>0,2908424</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7041323</x>
+                <y>0,689286</y>
+                <z>-1,08904</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8528925</x>
+                <y>0,85</y>
+                <z>5,513181</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-23,55082</z>
+            </Vec3>
+        </member>
+    </RollingResistanceScalarVSpeed>
+    <AnalyticalTireDataRear>[Ebx] Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_AnalyticalTireConfigRear [25205c7a-64a4-4547-821b-3e5977dd25b2]</AnalyticalTireDataRear>
+    <PacejkaTireDataRear>nullptr</PacejkaTireDataRear>
+    <SkidMarkDataFront>[Ebx] Vehicles/Tuning/Default_Car/DefaultSkidMarkConfig [6153bbe5-5a62-ebda-9859-8912ba3ed994]</SkidMarkDataFront>
+    <PacejkaTireDataFront>nullptr</PacejkaTireDataFront>
+    <TireModelType>TireModelType_Analytical</TireModelType>
+    <DiameterRear>0,65373</DiameterRear>
+    <TireInertiaRear>1,2716</TireInertiaRear>
+    <TireHeatIncreaseRate>0</TireHeatIncreaseRate>
+    <TireHeatDecayRate>0</TireHeatDecayRate>
+    <DiameterFront>0,65373</DiameterFront>
+    <SectionWidthRear>230,19</SectionWidthRear>
+    <SectionWidthFront>230,19</SectionWidthFront>
+    <TireInertiaFront>1,17649</TireInertiaFront>
+    <RimDiameterRear>0,43803</RimDiameterRear>
+    <BurnoutTendency>0,3</BurnoutTendency>
+    <RimDiameterFront>0,43803</RimDiameterFront>
+</RaceVehicleTireConfigData>

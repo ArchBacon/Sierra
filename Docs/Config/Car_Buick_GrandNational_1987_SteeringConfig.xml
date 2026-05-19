@@ -1,0 +1,952 @@
+<RaceVehicleSteeringConfigData Guid="010f4106-8d84-4886-b292-e11f6b6df791">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_SteeringConfig</Name>
+    <AligningTorqueEffect>0,3</AligningTorqueEffect>
+    <BrakeInputRemap Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>3,6205</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,5</x>
+                <y>0,25</y>
+                <z>-1,241</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,71</x>
+                <y>0,38</y>
+                <z>3,172649</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,81</x>
+                <y>0,478</y>
+                <z>4,592798</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,85</x>
+                <y>0,535</y>
+                <z>26,66886</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,89</x>
+                <y>0,618</y>
+                <z>-13,76817</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,934</x>
+                <y>0,7357</y>
+                <z>110,1429</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-237,0963</z>
+            </Vec3>
+        </member>
+    </BrakeInputRemap>
+    <CounterSteerRate Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>150</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,4</y>
+                <z>-2,563733</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,32</x>
+                <y>0,33</y>
+                <z>1,025903</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,52</x>
+                <y>0,3</y>
+                <z>0,8297738</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,8</x>
+                <y>0,3</y>
+                <z>-0,3634409</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,845</x>
+                <y>0,3</y>
+                <z>0,0866653</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,9033332</x>
+                <y>0,3</y>
+                <z>-0,02667355</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,945</x>
+                <y>0,3</y>
+                <z>0,006701907</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,3</y>
+                <z>-0,003350953</z>
+            </Vec3>
+        </member>
+    </CounterSteerRate>
+    <SteerRate Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>100</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,4</y>
+                <z>-2,563733</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,32</x>
+                <y>0,33</y>
+                <z>1,025903</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,52</x>
+                <y>0,3</y>
+                <z>0,8297738</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,8</x>
+                <y>0,3</y>
+                <z>-0,3634409</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,845</x>
+                <y>0,3</y>
+                <z>0,0866653</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,9033332</x>
+                <y>0,3</y>
+                <z>-0,02667355</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,945</x>
+                <y>0,3</y>
+                <z>0,006701907</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,3</y>
+                <z>-0,003350953</z>
+            </Vec3>
+        </member>
+    </SteerRate>
+    <SteeringRangeOnThrottle Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>100</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,35</y>
+                <z>-15,32519</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1616667</x>
+                <y>0,2416667</y>
+                <z>5,780574</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,315</x>
+                <y>0,1683333</y>
+                <z>-0,08566371</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4766668</x>
+                <y>0,12</y>
+                <z>1,505349</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,62</x>
+                <y>0,1</y>
+                <z>0,3641115</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7683332</x>
+                <y>0,09</y>
+                <z>0,03067855</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,9</x>
+                <y>0,083</y>
+                <z>0,1087432</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,08</y>
+                <z>0,8456298</z>
+            </Vec3>
+        </member>
+    </SteeringRangeOnThrottle>
+    <ThrottleMappingSecondGear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>23,1016</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>0,15</y>
+                <z>-6,203209</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3</x>
+                <y>0,3</y>
+                <z>1,71123</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,45</x>
+                <y>0,45</y>
+                <z>-0,6417112</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,55</x>
+                <y>0,55</y>
+                <z>0,6417112</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7</x>
+                <y>0,7</y>
+                <z>-1,71123</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>0,85</y>
+                <z>6,203207</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-23,10161</z>
+            </Vec3>
+        </member>
+    </ThrottleMappingSecondGear>
+    <SteeringRangeOffThrottle Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>100</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,35</y>
+                <z>-15,32519</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1616667</x>
+                <y>0,2416667</y>
+                <z>5,780574</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,315</x>
+                <y>0,1683333</y>
+                <z>-0,08566371</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4766668</x>
+                <y>0,12</y>
+                <z>1,505349</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,62</x>
+                <y>0,1</y>
+                <z>0,3641115</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7683332</x>
+                <y>0,09</y>
+                <z>0,03067855</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,9</x>
+                <y>0,083</y>
+                <z>0,1087432</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,08</y>
+                <z>0,8456298</z>
+            </Vec3>
+        </member>
+    </SteeringRangeOffThrottle>
+    <SteeringVsAngularVelocity Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,13</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2666667</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4133333</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,59</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7483333</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,88</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </SteeringVsAngularVelocity>
+    <GentleInputSteerRate Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>50</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,4</y>
+                <z>-2,563733</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,32</x>
+                <y>0,33</y>
+                <z>1,025903</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,52</x>
+                <y>0,3</y>
+                <z>0,8297738</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,8</x>
+                <y>0,3</y>
+                <z>-0,3634409</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,845</x>
+                <y>0,3</y>
+                <z>0,0866653</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,9033332</x>
+                <y>0,3</y>
+                <z>-0,02667355</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,945</x>
+                <y>0,3</y>
+                <z>0,006701907</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,3</y>
+                <z>-0,003350953</z>
+            </Vec3>
+        </member>
+    </GentleInputSteerRate>
+    <ReverseSteeringRange Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>100</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1983333</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3266667</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4516667</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,6366667</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7683333</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8933333</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,35</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </ReverseSteeringRange>
+    <CenterSteerRate Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>100</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,4</y>
+                <z>-2,563733</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,32</x>
+                <y>0,33</y>
+                <z>1,025903</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,52</x>
+                <y>0,3</y>
+                <z>0,8297738</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,8</x>
+                <y>0,3</y>
+                <z>-0,3634409</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,845</x>
+                <y>0,3</y>
+                <z>0,0866653</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,9033332</x>
+                <y>0,3</y>
+                <z>-0,02667355</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,945</x>
+                <y>0,3</y>
+                <z>0,006701907</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,3</y>
+                <z>-0,003350953</z>
+            </Vec3>
+        </member>
+    </CenterSteerRate>
+    <SteeringVsSlipAngle Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1033333</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2266667</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,38</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5833333</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,74</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8983333</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </SteeringVsSlipAngle>
+    <ThrottleMappingThirdAndAbove Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>23,1016</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>0,15</y>
+                <z>-6,203209</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3</x>
+                <y>0,3</y>
+                <z>1,71123</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,45</x>
+                <y>0,45</y>
+                <z>-0,6417112</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,55</x>
+                <y>0,55</y>
+                <z>0,6417112</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7</x>
+                <y>0,7</y>
+                <z>-1,71123</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>0,85</y>
+                <z>6,203207</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-23,10161</z>
+            </Vec3>
+        </member>
+    </ThrottleMappingThirdAndAbove>
+    <ThrottleMappingFirstGear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>13,34215</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>0,1</y>
+                <z>-0,0176424</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3</x>
+                <y>0,25</y>
+                <z>0,06175029</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,45</x>
+                <y>0,4</y>
+                <z>-0,2293493</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,55</x>
+                <y>0,5</y>
+                <z>1,054088</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7</x>
+                <y>0,65</y>
+                <z>-3,360717</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>0,8</y>
+                <z>12,38878</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-32,86106</z>
+            </Vec3>
+        </member>
+    </ThrottleMappingFirstGear>
+    <TimeThrottlingAfterDownShift>0,2</TimeThrottlingAfterDownShift>
+    <DriftAngleForCounterSteerRate>40</DriftAngleForCounterSteerRate>
+    <MaxSteeringAngle>35</MaxSteeringAngle>
+    <MaxAngleCounterSteerAlignEffect>0</MaxAngleCounterSteerAlignEffect>
+    <MinSpeedForThrottlingAfterDownShift>10</MinSpeedForThrottlingAfterDownShift>
+    <ReverseSteerRate>47</ReverseSteerRate>
+    <AmountThrottlingAfterDownShift>0,7</AmountThrottlingAfterDownShift>
+    <ReverseCounterSteerRate>80</ReverseCounterSteerRate>
+    <DriftCountersteerRate>80</DriftCountersteerRate>
+    <MaxAngleSteeringAlignEffect>0</MaxAngleSteeringAlignEffect>
+    <ReverseCenterSteerRate>80</ReverseCenterSteerRate>
+    <AligningTorqueEffectInDrift>0</AligningTorqueEffectInDrift>
+</RaceVehicleSteeringConfigData>

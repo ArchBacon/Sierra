@@ -1,0 +1,14 @@
+<RaceVehicleForcedInductionConfigData Guid="1cee20a1-8f24-44de-94c6-e1239385b659">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_ForcedInductionConfig</Name>
+    <SpinDownTime>0,5</SpinDownTime>
+    <HighBoost>0,1</HighBoost>
+    <BoostMinThrottle>0,7</BoostMinThrottle>
+    <PeakPSI>4</PeakPSI>
+    <BoostAlwaysThrottle>1</BoostAlwaysThrottle>
+    <LagTime>0,6</LagTime>
+    <BoostStartRpm>0,4</BoostStartRpm>
+    <LowBoost>0</LowBoost>
+    <InductionType>ForcedInductionType_TurboCharger</InductionType>
+    <HasBlowoffValve>True</HasBlowoffValve>
+    <HasBypassVale>False</HasBypassVale>
+</RaceVehicleForcedInductionConfigData>

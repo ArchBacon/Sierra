@@ -13,6 +13,11 @@
 				"Engine",
 				"CoreUObject"
 			]
+		},
+		{
+			"Name": "SierraEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
 		}
 	],
 	"Plugins": [

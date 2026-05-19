@@ -1,0 +1,228 @@
+<RaceVehicleBrakesConfigData Guid="8c1763b3-e930-40d4-bb71-aa0b4ff08dac">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_BrakesConfig</Name>
+    <BrakeScalarDeadZone>1</BrakeScalarDeadZone>
+    <HandbrakeTorqueVsSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>600</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,2915254</y>
+                <z>-7,93573</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,12</x>
+                <y>0,2915254</y>
+                <z>15,87146</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,54</x>
+                <y>1</y>
+                <z>-14,4472</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,7416668</x>
+                <y>1</y>
+                <z>5,829449</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,7966668</x>
+                <y>1</y>
+                <z>-1,435131</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,8616668</x>
+                <y>1</y>
+                <z>0,3663327</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,935</x>
+                <y>1</y>
+                <z>-0,1100248</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0,05501239</z>
+            </Vec3>
+        </member>
+    </HandbrakeTorqueVsSpeed>
+    <RearBrakeTorqueVsSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>1050</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1233333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3016667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4133333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,62</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7633333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8866667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </RearBrakeTorqueVsSpeed>
+    <FrontBrakeTorqueVsSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>1400</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,8266667</y>
+                <z>-3,562621</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1466667</x>
+                <y>0,85</y>
+                <z>13,63352</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,26</x>
+                <y>0,9666666</y>
+                <z>-11,86756</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,44</x>
+                <y>1</y>
+                <z>1,954517</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5333334</x>
+                <y>1</y>
+                <z>-0,4652228</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,65</x>
+                <y>1</y>
+                <z>0,1111882</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,795</x>
+                <y>1</y>
+                <z>-0,02698292</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0,01349146</z>
+            </Vec3>
+        </member>
+    </FrontBrakeTorqueVsSpeed>
+    <RearBrakeScalarWhenSteering>1</RearBrakeScalarWhenSteering>
+    <MinHandbrakeTime>0,1</MinHandbrakeTime>
+    <FrontBrakeOffset>0</FrontBrakeOffset>
+    <BackwardsExtraBrakeStrength>15</BackwardsExtraBrakeStrength>
+    <TimeForFullBrakeStrength>0,1</TimeForFullBrakeStrength>
+    <RearBrakeOffset>0</RearBrakeOffset>
+    <ExtraBrakeStrength>0</ExtraBrakeStrength>
+    <FrontBrakeScalarWhenSteering>1</FrontBrakeScalarWhenSteering>
+</RaceVehicleBrakesConfigData>

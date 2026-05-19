@@ -1,0 +1,309 @@
+<RaceVehicleEngineConfigData Guid="1ef35349-dadf-41a7-a909-e1fa7c192d1d">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_EngineConfig</Name>
+    <IgnitionSequenceLength>1,4</IgnitionSequenceLength>
+    <EngineBrakingVsGear Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>-1</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>8</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1111111</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2222222</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,3333333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,4444444</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,5555556</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,6666667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>0,7777778</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </EngineBrakingVsGear>
+    <Torque Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>1000</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>4800</x>
+                <y>354</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,7366667</y>
+                <z>49,76909</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1333333</x>
+                <y>0,9516667</y>
+                <z>-26,9757</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2631579</x>
+                <y>1</y>
+                <z>0,9292928</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,445</x>
+                <y>0,975</y>
+                <z>-0,7469427</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,6033334</x>
+                <y>0,9333333</y>
+                <z>-2,620158</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,755</x>
+                <y>0,855</y>
+                <z>1,469082</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8947368</x>
+                <y>0,759887</y>
+                <z>-10,33263</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,6616667</y>
+                <z>31,75945</z>
+            </Vec3>
+        </member>
+    </Torque>
+    <TorqueNoise Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>1000</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>4800</x>
+                <y>20</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>62,60571</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>0,34</y>
+                <z>-34,54475</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3333333</x>
+                <y>0,4733333</y>
+                <z>24,01425</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4366667</x>
+                <y>0,6933333</y>
+                <z>9,441204</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5466667</x>
+                <y>0,9716667</y>
+                <z>-37,29178</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,6466666</x>
+                <y>1</y>
+                <z>11,42193</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8483334</x>
+                <y>0,94</y>
+                <z>-32,9612</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,5983334</y>
+                <z>61,04045</z>
+            </Vec3>
+        </member>
+    </TorqueNoise>
+    <EngineFrictionTorque Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>1000</x>
+                <y>-150</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>4800</x>
+                <y>0</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>-555,5704</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,04166667</x>
+                <y>0,72</y>
+                <z>143,4608</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,11</x>
+                <y>0,3733333</y>
+                <z>21,48822</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,24</x>
+                <y>0,135</y>
+                <z>8,555524</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,4033333</x>
+                <y>0,05</y>
+                <z>0,3969856</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,5766667</x>
+                <y>0,015</y>
+                <z>1,420411</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,7633333</x>
+                <y>0,008333334</y>
+                <z>-0,5049325</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0,6988063</z>
+            </Vec3>
+        </member>
+    </EngineFrictionTorque>
+    <EngineLoadLerp>0,5</EngineLoadLerp>
+    <EngineAntibogMaxMult>1</EngineAntibogMaxMult>
+    <SpeedLimiter>600</SpeedLimiter>
+    <FlyWheelMass>15</FlyWheelMass>
+    <ZeroLoadTorqueNoise>1</ZeroLoadTorqueNoise>
+    <RedLine>4800</RedLine>
+    <EngineAntibogRampTime>50</EngineAntibogRampTime>
+    <FullLoadTorqueNoise>1,5</FullLoadTorqueNoise>
+    <EngineRevFullThrottleDuration>0,15</EngineRevFullThrottleDuration>
+    <RevLimiterTime>0,18</RevLimiterTime>
+    <MaxRpm>5050</MaxRpm>
+    <MinLoadAtTopSpeed>0,45</MinLoadAtTopSpeed>
+    <Idle>1000</Idle>
+    <SpeedLimiterReverse>600</SpeedLimiterReverse>
+    <SpeedLimiterNOS>600</SpeedLimiterNOS>
+    <EngineRevSequenceLength>1</EngineRevSequenceLength>
+    <EngineResistance>-450</EngineResistance>
+</RaceVehicleEngineConfigData>

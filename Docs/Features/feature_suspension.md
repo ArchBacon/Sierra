@@ -1,9 +1,9 @@
 # Feature: Suspension
 
-## Task 1: Per-Wheel Raycast System
-- [ ] Cast a ray downward from each wheel position each tick to detect the ground
-- [ ] Calculate the compression distance between the wheel's rest position and the detected ground contact point
-- [ ] Store the previous frame's compression distance to calculate suspension velocity for damper calculations
+## ~~Task 1: Per-Wheel Raycast System~~
+- [x] Cast a ray downward from each wheel position each tick to detect the ground
+- [x] Calculate the compression distance between the wheel's rest position and the detected ground contact point
+- [x] Store the previous frame's compression distance to calculate suspension velocity for damper calculations
 
 *Each wheel operates independently, meaning the suspension responds correctly on uneven and sloped terrain.*
 

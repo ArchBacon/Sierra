@@ -1,0 +1,468 @@
+<RaceVehicleTransmissionConfigData Guid="128df984-d9ad-4702-97e9-e0b5634282a4">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_TransmissionConfig</Name>
+    <ShiftDownBrakeDynamicFactor>0</ShiftDownBrakeDynamicFactor>
+    <GearRatio Count="0"></GearRatio>
+    <UpShiftThrottle Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>0,5</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </UpShiftThrottle>
+    <GearEfficiency Count="0"></GearEfficiency>
+    <DownShiftSlopeScalar Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>21</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>17,75614</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1428571</x>
+                <y>0,1</y>
+                <z>-6,11229</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,2857143</x>
+                <y>0,18</y>
+                <z>0,8130193</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4285714</x>
+                <y>0,25</y>
+                <z>-0,0797885</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5714286</x>
+                <y>0,32</y>
+                <z>-0,4938695</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7142857</x>
+                <y>0,38</y>
+                <z>-0,8847265</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8571429</x>
+                <y>0,4</y>
+                <z>-7,727224</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0,35</y>
+                <z>11,21361</z>
+            </Vec3>
+        </member>
+    </DownShiftSlopeScalar>
+    <GearUpSpeed Count="0"></GearUpSpeed>
+    <GearDownRPM Count="0"></GearDownRPM>
+    <UpShiftClutch Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>0,5</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </UpShiftClutch>
+    <GearUpRPM Count="0"></GearUpRPM>
+    <Gears Count="9">
+        <member Index="0">
+            <GearData>
+                <GearDownRPM>0</GearDownRPM>
+                <GearEfficiency>0,8</GearEfficiency>
+                <GearUpRPM>0</GearUpRPM>
+                <GearUpSpeed>15</GearUpSpeed>
+                <GearRatio>2,07</GearRatio>
+            </GearData>
+        </member>
+        <member Index="1">
+            <GearData>
+                <GearDownRPM>0</GearDownRPM>
+                <GearEfficiency>1</GearEfficiency>
+                <GearUpRPM>0</GearUpRPM>
+                <GearUpSpeed>0</GearUpSpeed>
+                <GearRatio>0</GearRatio>
+            </GearData>
+        </member>
+        <member Index="2">
+            <GearData>
+                <GearDownRPM>1000</GearDownRPM>
+                <GearEfficiency>0,86</GearEfficiency>
+                <GearUpRPM>6150</GearUpRPM>
+                <GearUpSpeed>12</GearUpSpeed>
+                <GearRatio>2,74</GearRatio>
+            </GearData>
+        </member>
+        <member Index="3">
+            <GearData>
+                <GearDownRPM>3150</GearDownRPM>
+                <GearEfficiency>0,88</GearEfficiency>
+                <GearUpRPM>4700</GearUpRPM>
+                <GearUpSpeed>55</GearUpSpeed>
+                <GearRatio>1,57</GearRatio>
+            </GearData>
+        </member>
+        <member Index="4">
+            <GearData>
+                <GearDownRPM>3700</GearDownRPM>
+                <GearEfficiency>0,92</GearEfficiency>
+                <GearUpRPM>4700</GearUpRPM>
+                <GearUpSpeed>85</GearUpSpeed>
+                <GearRatio>1</GearRatio>
+            </GearData>
+        </member>
+        <member Index="5">
+            <GearData>
+                <GearDownRPM>4000</GearDownRPM>
+                <GearEfficiency>0,98</GearEfficiency>
+                <GearUpRPM>4700</GearUpRPM>
+                <GearUpSpeed>115</GearUpSpeed>
+                <GearRatio>0,667</GearRatio>
+            </GearData>
+        </member>
+        <member Index="6">
+            <GearData>
+                <GearDownRPM>4250</GearDownRPM>
+                <GearEfficiency>0,99</GearEfficiency>
+                <GearUpRPM>4700</GearUpRPM>
+                <GearUpSpeed>150</GearUpSpeed>
+                <GearRatio>0,55</GearRatio>
+            </GearData>
+        </member>
+        <member Index="7">
+            <GearData>
+                <GearDownRPM>4250</GearDownRPM>
+                <GearEfficiency>0,99</GearEfficiency>
+                <GearUpRPM>4700</GearUpRPM>
+                <GearUpSpeed>150</GearUpSpeed>
+                <GearRatio>0,485</GearRatio>
+            </GearData>
+        </member>
+        <member Index="8">
+            <GearData>
+                <GearDownRPM>4250</GearDownRPM>
+                <GearEfficiency>0,99</GearEfficiency>
+                <GearUpRPM>4700</GearUpRPM>
+                <GearUpSpeed>150</GearUpSpeed>
+                <GearRatio>0,44</GearRatio>
+            </GearData>
+        </member>
+    </Gears>
+    <DownShiftClutch Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>0,2</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </DownShiftClutch>
+    <DownShiftThrottle Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>0,2</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </DownShiftThrottle>
+    <TransmissionInertia>1</TransmissionInertia>
+    <TorqueSplit>0</TorqueSplit>
+    <DriveShaftTorqueMax>0</DriveShaftTorqueMax>
+    <MinTireTractionToShiftUpFirstGear>0,6</MinTireTractionToShiftUpFirstGear>
+    <GearChangeTime>0,4</GearChangeTime>
+    <TorqueSplitInDrift>0</TorqueSplitInDrift>
+    <ClutchSlip>0,6</ClutchSlip>
+    <DriveShaftTorqueEffect>0</DriveShaftTorqueEffect>
+    <ReverseTorqueMultiplier>1</ReverseTorqueMultiplier>
+    <TopGear>4</TopGear>
+    <DifferentialFront>0</DifferentialFront>
+    <DirtTorqueSplit>0</DirtTorqueSplit>
+    <MinTireTractionToShiftUp>0,8</MinTireTractionToShiftUp>
+    <FinalGear>3,42</FinalGear>
+    <DifferentialRear>0,6</DifferentialRear>
+    <DifferentialCenter>0</DifferentialCenter>
+</RaceVehicleTransmissionConfigData>

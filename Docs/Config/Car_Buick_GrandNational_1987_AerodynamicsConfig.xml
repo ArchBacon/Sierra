@@ -1,0 +1,173 @@
+<RaceVehicleAerodynamicsConfigData Guid="940b49df-dc07-4708-8f0f-50b60cc10932">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_AerodynamicsConfig</Name>
+    <InAirDampingXLow>0,4</InAirDampingXLow>
+    <AeroCoefficient Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>3</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,3</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,45</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,6</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,75</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,9</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </AeroCoefficient>
+    <AeroCG Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>50</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>60</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,06833334</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,1966667</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,33</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,4866667</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,6116667</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,825</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </AeroCG>
+    <LiftHeightRatio>99</LiftHeightRatio>
+    <DragCoefficient>0,2446</DragCoefficient>
+    <GroundEffectHeightRatio>30</GroundEffectHeightRatio>
+    <LandingForwardVelocityDamping>0,2</LandingForwardVelocityDamping>
+    <InAirDampingYHigh>0,64</InAirDampingYHigh>
+    <AeroCoefficient90DegLoss>0</AeroCoefficient90DegLoss>
+    <DownforceOffsetInDrift>-0,4</DownforceOffsetInDrift>
+    <DownforceOffset>-0,2</DownforceOffset>
+    <NitrousDragCoefficient>0,8</NitrousDragCoefficient>
+    <InAirDampingXHigh>0,64</InAirDampingXHigh>
+    <FlyingCarAeroCoef_SmallAir>7</FlyingCarAeroCoef_SmallAir>
+    <InAirDampingZLow>0,4</InAirDampingZLow>
+    <AeroCoefficientOffThrottle>0,1</AeroCoefficientOffThrottle>
+    <AeroCoefficientMaxLift>0</AeroCoefficientMaxLift>
+    <NitrousTopSpeed>240</NitrousTopSpeed>
+    <InAirDampingLowSpeed>100</InAirDampingLowSpeed>
+    <FlyingCarAeroCoef_BigAir>4,15</FlyingCarAeroCoef_BigAir>
+    <InAirDampingZHigh>0,64</InAirDampingZHigh>
+    <DownforceOffsetUnderBraking>0,05</DownforceOffsetUnderBraking>
+    <InAirDampingYLow>0,4</InAirDampingYLow>
+    <Downforce>-1</Downforce>
+    <LandingForwardVelocityDampingDuration>0,4</LandingForwardVelocityDampingDuration>
+    <InAirDampingHighSpeed>200</InAirDampingHighSpeed>
+    <AeroCoefficientMaxGroundEffect>0</AeroCoefficientMaxGroundEffect>
+    <TopSpeed>230</TopSpeed>
+</RaceVehicleAerodynamicsConfigData>

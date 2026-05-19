@@ -1,0 +1,354 @@
+<RaceVehicleChassisConfigData Guid="8ce78249-94c5-5209-61a9-bccb91829a23">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_ChassisConfig</Name>
+    <VehicleVsVehicleFriction>0,15</VehicleVsVehicleFriction>
+    <InertiaBoxTumbling>
+        <Vec3>
+            <x>2,7</x>
+            <y>1</y>
+            <z>5,2</z>
+        </Vec3>
+    </InertiaBoxTumbling>
+    <InertiaBoxVehiclePhysics>
+        <Vec3>
+            <x>1,93</x>
+            <y>1,24</y>
+            <z>4,5</z>
+        </Vec3>
+    </InertiaBoxVehiclePhysics>
+    <TensorScale>
+        <Vec3>
+            <x>1</x>
+            <y>1</y>
+            <z>1</z>
+        </Vec3>
+    </TensorScale>
+    <TumbleLocalCOG>
+        <Vec3>
+            <x>0</x>
+            <y>0,22</y>
+            <z>0,066</z>
+        </Vec3>
+    </TumbleLocalCOG>
+    <InertiaBoxCollision>
+        <Vec3>
+            <x>2,5</x>
+            <y>1</y>
+            <z>5</z>
+        </Vec3>
+    </InertiaBoxCollision>
+    <WheelieTorqueThrottleVsSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>20000</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0,9516667</y>
+                <z>41,03036</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,05</x>
+                <y>0,9816667</y>
+                <z>-10,06065</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,09666666</x>
+                <y>1</y>
+                <z>-28,91406</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,1583333</x>
+                <y>0,945</y>
+                <z>-15,79918</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,3433333</x>
+                <y>0,54</y>
+                <z>9,694675</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,595</x>
+                <y>0,215</y>
+                <z>-0,6240188</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,9</x>
+                <y>0</y>
+                <z>5,815572</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>0</y>
+                <z>-2,907786</z>
+            </Vec3>
+        </member>
+    </WheelieTorqueThrottleVsSpeed>
+    <FrontWeightBias Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>52</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1483333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,29</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,4483333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,6066667</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,73</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8733333</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </FrontWeightBias>
+    <RollCenter Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>11</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,15</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,29</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,43</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,57</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,71</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,85</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0</z>
+            </Vec3>
+        </member>
+    </RollCenter>
+    <WheelieTorqueNosVsSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>40000</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>1</y>
+                <z>0,006330192</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,1633333</x>
+                <y>1</y>
+                <z>-0,01266038</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,38</x>
+                <y>0,955</y>
+                <z>-5,711845</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,5283333</x>
+                <y>0,8216667</y>
+                <z>0,1704591</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,6566667</x>
+                <y>0,6933333</y>
+                <z>1,139204</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7733333</x>
+                <y>0,5916666</y>
+                <z>1,640029</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,875</x>
+                <y>0,525</y>
+                <z>4,378</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>0,9983333</x>
+                <y>0,4966667</y>
+                <z>3,399015</z>
+            </Vec3>
+        </member>
+    </WheelieTorqueNosVsSpeed>
+    <CollisionThresholdScalar>1,2</CollisionThresholdScalar>
+    <Mass>1350</Mass>
+    <PitManeuverVictimLateralGripScalar>1</PitManeuverVictimLateralGripScalar>
+    <GravityScale>1</GravityScale>
+    <TrackWidthFront>1,7341</TrackWidthFront>
+    <WheelieTorqueThrottleScalar>0</WheelieTorqueThrottleScalar>
+    <TerrainBottomOutFriction>0,72</TerrainBottomOutFriction>
+    <WheelieTorqueStartFadeOutAngle>5</WheelieTorqueStartFadeOutAngle>
+    <SideSwipeSpeedMatchingScalar>0,5</SideSwipeSpeedMatchingScalar>
+    <WheelieTorqueMaxAngle>16</WheelieTorqueMaxAngle>
+    <WheelieTorqueMinAcceleration>2</WheelieTorqueMinAcceleration>
+    <WheelBase>2,71</WheelBase>
+    <TrackWidthRear>1,73088</TrackWidthRear>
+    <AntiSpinVsStaticScalar>1</AntiSpinVsStaticScalar>
+    <WheelieTorqueThrottleFadeOut>0,5</WheelieTorqueThrottleFadeOut>
+    <WheelieTorqueNosFadeIn>0,5</WheelieTorqueNosFadeIn>
+    <WheelieTorqueAngularDamping>24000</WheelieTorqueAngularDamping>
+    <WheelieTorqueNosFadeOut>1</WheelieTorqueNosFadeOut>
+    <VehicleVsVehicleBounceScalar>0,125</VehicleVsVehicleBounceScalar>
+    <WheelieTorqueNosScalar>0</WheelieTorqueNosScalar>
+    <MassRaiseVsVehicle>0,2</MassRaiseVsVehicle>
+    <FrontAxle>1,33875</FrontAxle>
+    <WheelieTorqueThrottleFadeIn>0,5</WheelieTorqueThrottleFadeIn>
+    <HealthScalar>0</HealthScalar>
+    <MassRaiseVsStatic>0,075</MassRaiseVsStatic>
+    <WheelieTorqueMaxAcceleration>15</WheelieTorqueMaxAcceleration>
+    <CollisionInvMassScale>1</CollisionInvMassScale>
+</RaceVehicleChassisConfigData>

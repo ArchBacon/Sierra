@@ -1,0 +1,118 @@
+<RaceVehicleXCarConfigData Guid="73a9936e-313c-3759-2517-ea3e65e6a5a2">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_XCarConfig</Name>
+    <WheelSpringDampingRatioFront>0,175</WheelSpringDampingRatioFront>
+    <XCarBodyYOffsetVSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>0,025</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>-565,1848</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,04</x>
+                <y>0</y>
+                <z>1130,37</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,08</x>
+                <y>1</y>
+                <z>-206,2935</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,645</x>
+                <y>1</y>
+                <z>96,28376</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,69</x>
+                <y>1</y>
+                <z>-20,23042</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,7583333</x>
+                <y>1</y>
+                <z>3,699396</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,9</x>
+                <y>1</y>
+                <z>-1,209418</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>0,6047089</z>
+            </Vec3>
+        </member>
+    </XCarBodyYOffsetVSpeed>
+    <WheelSpringCoefficientRear>250</WheelSpringCoefficientRear>
+    <WheelCamberTopRear>0,15</WheelCamberTopRear>
+    <WheelPivotPointXOffsetRear>0</WheelPivotPointXOffsetRear>
+    <WheelCamberBottomRear>-0,2</WheelCamberBottomRear>
+    <BodyRollCenterHeight>-0,3</BodyRollCenterHeight>
+    <WheelCamberBottomFront>-0,2</WheelCamberBottomFront>
+    <WheelSpringMassFront>2</WheelSpringMassFront>
+    <ForwardForceMultiplier>1</ForwardForceMultiplier>
+    <WheelXOffsetTopFront>-0,02118</WheelXOffsetTopFront>
+    <WheelXOffsetBottomRear>-0,02135</WheelXOffsetBottomRear>
+    <WheelUpperLimitFront>0,05</WheelUpperLimitFront>
+    <WheelSpringUpperLimitRear>0,1</WheelSpringUpperLimitRear>
+    <XCarRideHeightFront>0,002</XCarRideHeightFront>
+    <WheelCasterFront>0</WheelCasterFront>
+    <WheelXOffsetTopRear>-0,02135</WheelXOffsetTopRear>
+    <WheelMaxVisualSteeringAngle>15</WheelMaxVisualSteeringAngle>
+    <XCarRideHeightRear>0,002</XCarRideHeightRear>
+    <RollForceMultiplier>10</RollForceMultiplier>
+    <ScalarAdditionalPitch>1</ScalarAdditionalPitch>
+    <WheelSpringDampingRatioRear>0,175</WheelSpringDampingRatioRear>
+    <XCarYOffset>-0,005</XCarYOffset>
+    <ScalarAdditionalRoll>1</ScalarAdditionalRoll>
+    <ScalarSquat>0,6</ScalarSquat>
+    <XCarToeAngleRear>0</XCarToeAngleRear>
+    <SideForceMultiplier>1</SideForceMultiplier>
+    <WheelSpringCoefficientFront>250</WheelSpringCoefficientFront>
+    <ScalarY>0</ScalarY>
+    <PitchForceMultiplier>10</PitchForceMultiplier>
+    <WheelSpringLowerLimitRear>-0,1</WheelSpringLowerLimitRear>
+    <WheelUpperLimitRear>0,04</WheelUpperLimitRear>
+    <WheelLowerLimitRear>-0,09</WheelLowerLimitRear>
+    <ScalarDive>0,3</ScalarDive>
+    <XCarToeAngleFront>0</XCarToeAngleFront>
+    <WheelSpringMassRear>2</WheelSpringMassRear>
+    <WheelPivotPointXOffsetFront>0</WheelPivotPointXOffsetFront>
+    <ScalarZ>0,3</ScalarZ>
+    <WheelXOffsetBottomFront>-0,02118</WheelXOffsetBottomFront>
+    <WheelSpringLowerLimitFront>-0,1</WheelSpringLowerLimitFront>
+    <WheelLowerLimitFront>-0,08</WheelLowerLimitFront>
+    <XCarMultiplier>1</XCarMultiplier>
+    <WheelSpringUpperLimitFront>0,1</WheelSpringUpperLimitFront>
+    <WheelCamberTopFront>0,1</WheelCamberTopFront>
+</RaceVehicleXCarConfigData>

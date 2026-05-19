@@ -3,64 +3,56 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "VehicleConfig.h"
+#include "Config/VehicleConfig.h"
 #include "GameFramework/Pawn.h"
 #include "PhysicsVehicle.generated.h"
 
-class USuspensionConfig;
+class UTransmissionForceComponent;
+struct FInputActionValue;
+class UInputAction;
+class UInputMappingContext;
+class UAccelerationForceComponent;
+class UChassisComponent;
 class USuspensionComponent;
+class USuspensionConfig;
+class USuspensionForceComponent;
 class UVehicleConfig;
-
-USTRUCT(BlueprintType)
-struct FWheelComponents
-{
-	GENERATED_BODY()
-	
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Wheel)
-	TObjectPtr<UStaticMeshComponent> Wheel {nullptr};
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Wheel)
-	TObjectPtr<UStaticMeshComponent> Tire {nullptr};
-};
-
-UENUM()
-enum class EWheelIndex : uint8 { FrontLeft, FrontRight, RearLeft, RearRight };
 
 UCLASS()
 class SIERRA_API APhysicsVehicle : public APawn
 {
 	GENERATED_BODY()
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<USceneComponent> Root {nullptr};
+	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
+	// TObjectPtr<USceneComponent> Root {nullptr};
 	
 	/** Vehicle */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<UStaticMeshComponent> Chassis {nullptr};
+	TObjectPtr<UChassisComponent> Chassis {nullptr};
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<USceneComponent> SuspensionFrontLeft {nullptr};
+	TObjectPtr<USuspensionComponent> SuspensionFrontLeft {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> WheelFrontLeft {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> TireFrontLeft {nullptr};
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<USceneComponent> SuspensionFrontRight {nullptr};
+	TObjectPtr<USuspensionComponent> SuspensionFrontRight {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> WheelFrontRight {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> TireFrontRight {nullptr};
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<USceneComponent> SuspensionRearLeft {nullptr};
+	TObjectPtr<USuspensionComponent> SuspensionRearLeft {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> WheelRearLeft {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> TireRearLeft {nullptr};
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<USceneComponent> SuspensionRearRight {nullptr};
+	TObjectPtr<USuspensionComponent> SuspensionRearRight {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UStaticMeshComponent> WheelRearRight {nullptr};
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
@@ -82,23 +74,52 @@ class SIERRA_API APhysicsVehicle : public APawn
 	
 	/** Components */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
-	TObjectPtr<USuspensionComponent> SuspensionComponent {nullptr};
+	TObjectPtr<USuspensionForceComponent> SuspensionComponent {nullptr};
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
+	TObjectPtr<UAccelerationForceComponent> AccelerationComponent {nullptr};
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Vehicle, meta=(AllowPrivateAccess="true"))
+	TObjectPtr<UTransmissionForceComponent> TransmissionComponent {nullptr};
+	
+	/** Input */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess="true"))
+	UInputMappingContext* DefaultMappingContext {nullptr};
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess="true"))
+	UInputAction* ThrottleAction {nullptr};
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess="true"))
+	UInputAction* BrakeAction {nullptr};
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess="true"))
+	UInputAction* SteerAction {nullptr};
 	
 public:
 	APhysicsVehicle();
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
+	/** Overrides */
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 	
-protected:
+	virtual void NotifyControllerChanged() override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
-public:
-	TObjectPtr<UVehicleConfig> GetVehicleConfig() const { return VehicleConfig; };
-	TObjectPtr<USuspensionConfig> GetSuspensionConfig() const { return VehicleConfig->SuspensionConfig; };
-	TObjectPtr<UTireConfig> GetTireConfig() const { return VehicleConfig->TireConfig; };
+	/** Input Responses */
+	void Throttle(const FInputActionValue& Value);
+	void ThrottleEnd(const FInputActionValue& Value);
 	
-	TArray<TObjectPtr<USceneComponent>> GetFrontSuspension() const { return {SuspensionFrontLeft, SuspensionFrontRight}; };
-	TArray<TObjectPtr<USceneComponent>> GetRearSuspension() const { return {SuspensionRearLeft, SuspensionRearRight}; };
+	/** Getters */
+	TObjectPtr<UVehicleConfig> GetConfig() const { return VehicleConfig; }
+	TObjectPtr<UChassisComponent> GetChassis() const { return Chassis; }
+	TObjectPtr<UAccelerationForceComponent> GetAccelerationComponent() const { return AccelerationComponent; }
+	TObjectPtr<UTransmissionForceComponent> GetTransmissionComponent() const { return TransmissionComponent; }
+	
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	TArray<USuspensionComponent*> GetFrontSuspension() const { return {SuspensionFrontLeft, SuspensionFrontRight}; }
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	TArray<USuspensionComponent*> GetRearSuspension() const { return {SuspensionRearLeft, SuspensionRearRight}; }
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	TArray<USuspensionComponent*> GetSuspension() const { return {SuspensionFrontLeft, SuspensionFrontRight, SuspensionRearLeft, SuspensionRearRight}; }
 };

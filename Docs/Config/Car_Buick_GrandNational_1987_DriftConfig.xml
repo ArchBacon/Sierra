@@ -1,0 +1,221 @@
+<RaceVehicleDriftConfigData Guid="b851fe2d-04c7-4b34-97f3-5f3285bbb1d5">
+    <Name>Vehicles/Tuning/Car_Buick_GrandNational_1987/Car_Buick_GrandNational_1987_DriftConfig</Name>
+    <Drift_scale_from_handbrake>0,5</Drift_scale_from_handbrake>
+    <YawDampeningAtAngle Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>180</x>
+                <y>1</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1,980038</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,245</x>
+                <y>0,08166666</y>
+                <z>4,203188</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,395</x>
+                <y>0,2766667</y>
+                <z>13,29581</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,5216666</x>
+                <y>0,6216667</y>
+                <z>4,37854</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,5783333</x>
+                <y>0,8066667</y>
+                <z>-0,7672208</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,6233333</x>
+                <y>0,9383333</y>
+                <z>-47,21779</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,73</x>
+                <y>1</y>
+                <z>2,535551</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-1,267776</z>
+            </Vec3>
+        </member>
+    </YawDampeningAtAngle>
+    <YawDampeningAtSpeed Count="10">
+        <member Index="0">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>1</z>
+            </Vec3>
+        </member>
+        <member Index="1">
+            <Vec3>
+                <x>250</x>
+                <y>0,75</y>
+                <z>8</z>
+            </Vec3>
+        </member>
+        <member Index="2">
+            <Vec3>
+                <x>0</x>
+                <y>0</y>
+                <z>16,76757</z>
+            </Vec3>
+        </member>
+        <member Index="3">
+            <Vec3>
+                <x>0,145</x>
+                <y>0,1083333</y>
+                <z>-2,619562</z>
+            </Vec3>
+        </member>
+        <member Index="4">
+            <Vec3>
+                <x>0,245</x>
+                <y>0,275</y>
+                <z>43,69528</z>
+            </Vec3>
+        </member>
+        <member Index="5">
+            <Vec3>
+                <x>0,3416667</x>
+                <y>0,655</y>
+                <z>-34,53775</z>
+            </Vec3>
+        </member>
+        <member Index="6">
+            <Vec3>
+                <x>0,4516667</x>
+                <y>0,8883333</y>
+                <z>-7,338233</z>
+            </Vec3>
+        </member>
+        <member Index="7">
+            <Vec3>
+                <x>0,5766667</x>
+                <y>0,9883333</y>
+                <z>-5,433225</z>
+            </Vec3>
+        </member>
+        <member Index="8">
+            <Vec3>
+                <x>0,8083333</x>
+                <y>1</y>
+                <z>1,27397</z>
+            </Vec3>
+        </member>
+        <member Index="9">
+            <Vec3>
+                <x>1</x>
+                <y>1</y>
+                <z>-0,636985</z>
+            </Vec3>
+        </member>
+    </YawDampeningAtSpeed>
+    <Drift_scale_from_gas_stab>0,1</Drift_scale_from_gas_stab>
+    <Drift_sideways_damping>0,025</Drift_sideways_damping>
+    <Brake_stab_return_speed>10</Brake_stab_return_speed>
+    <Drift_scale_for_maximum_side_force>0,3</Drift_scale_for_maximum_side_force>
+    <Maintain_entry_speed_amount>0,005</Maintain_entry_speed_amount>
+    <Side_force_magnitude>13</Side_force_magnitude>
+    <Drift_angular_damping>0,05</Drift_angular_damping>
+    <High_slip_angle_for_counter_steering>40</High_slip_angle_for_counter_steering>
+    <Slip_angle_to_enter_drift_when_handbraking>6</Slip_angle_to_enter_drift_when_handbraking>
+    <Gas_let_off_yaw_torque>-0,1</Gas_let_off_yaw_torque>
+    <Slip_angle_for_zero_drift_scale>0</Slip_angle_for_zero_drift_scale>
+    <Default_steering>0,1</Default_steering>
+    <Drift_angle_to_exit_drift>3</Drift_angle_to_exit_drift>
+    <Drift_scale_from_gas_let_off>0,35</Drift_scale_from_gas_let_off>
+    <Drift_scale_from_counter_steering>1</Drift_scale_from_counter_steering>
+    <DriftScaleFromHandbrakeAtHighSpeed>0,3</DriftScaleFromHandbrakeAtHighSpeed>
+    <DonutLongitudinalGripMin>1</DonutLongitudinalGripMin>
+    <Slip_angle_to_start_blending_down_drift_scale>0</Slip_angle_to_start_blending_down_drift_scale>
+    <Default_steering_remapping_offroad>0,5</Default_steering_remapping_offroad>
+    <Drift_scale_from_braking>1</Drift_scale_from_braking>
+    <Slip_angle_to_enter_drift>7,5</Slip_angle_to_enter_drift>
+    <Donut_yaw_torque>45000</Donut_yaw_torque>
+    <DonutLongitudinalGripMax>1</DonutLongitudinalGripMax>
+    <Donut_speed_limit_high>35</Donut_speed_limit_high>
+    <Drift_scale_from_steering>1,6</Drift_scale_from_steering>
+    <Initial_yaw_torque>0</Initial_yaw_torque>
+    <ExtraFishTailTorque>9000</ExtraFishTailTorque>
+    <Starting_drift_scale_after_scandinavian_flick>0,75</Starting_drift_scale_after_scandinavian_flick>
+    <Max_countersteering_at_low_slip_angle>-0,175</Max_countersteering_at_low_slip_angle>
+    <Side_force_multiplier>5,5</Side_force_multiplier>
+    <DonutLateralGripMax>1</DonutLateralGripMax>
+    <Drift_angle_for_side_force>4,75</Drift_angle_for_side_force>
+    <Reduce_forward_speed_amount>0,005</Reduce_forward_speed_amount>
+    <Slip_angle_to_enter_drift_when_braking>2</Slip_angle_to_enter_drift_when_braking>
+    <Speed_for_maximum_side_force>90</Speed_for_maximum_side_force>
+    <Counter_steering_remapping>0,1</Counter_steering_remapping>
+    <Slip_angle_to_enter_drift_after_scandinavian_flick>10</Slip_angle_to_enter_drift_after_scandinavian_flick>
+    <Maximum_yaw_torque>12500</Maximum_yaw_torque>
+    <DriftScaleFromHandbrakeAtLowSpeed>0,6</DriftScaleFromHandbrakeAtLowSpeed>
+    <Drift_scale_decay>0,55</Drift_scale_decay>
+    <Mid_yaw_torque>10550</Mid_yaw_torque>
+    <Minimum_yaw_torque>1550</Minimum_yaw_torque>
+    <Slip_angle_to_enter_drift_offroad>6,5</Slip_angle_to_enter_drift_offroad>
+    <Starting_drift_scale>0,0001</Starting_drift_scale>
+    <Default_steering_remapping>0,4</Default_steering_remapping>
+    <Minimum_speed_to_enter_drift>30</Minimum_speed_to_enter_drift>
+    <Min_decay_side_force_magnitude>0</Min_decay_side_force_magnitude>
+    <LongitudinalInstabilityEffectScalar>0</LongitudinalInstabilityEffectScalar>
+    <Speed_for_drift_chaining>150</Speed_for_drift_chaining>
+    <Drift_angle_for_decay>6,5</Drift_angle_for_decay>
+    <Max_countersteering_at_high_slip_angle>-1</Max_countersteering_at_high_slip_angle>
+    <Max_counter_steering_power>1,25</Max_counter_steering_power>
+    <Speed_for_no_sideforce>0</Speed_for_no_sideforce>
+    <Counter_steering_remapping_offroad>-0,3</Counter_steering_remapping_offroad>
+    <Slip_angle_to_enter_drift_after_gas_stab>3</Slip_angle_to_enter_drift_after_gas_stab>
+    <Max_countersteering>-1</Max_countersteering>
+    <Low_slip_angle_for_counter_steering>3</Low_slip_angle_for_counter_steering>
+    <TimeForMaxDonutGripEffect>1</TimeForMaxDonutGripEffect>
+    <Max_speed_difference_for_maintain_speed>12,5</Max_speed_difference_for_maintain_speed>
+    <Starting_drift_scale_from_drift_chaining>0,01</Starting_drift_scale_from_drift_chaining>
+    <Time_to_blend_damping>0,25</Time_to_blend_damping>
+    <Minimum_drift_angle_for_side_force>1,5</Minimum_drift_angle_for_side_force>
+    <Donut_speed_limit_low>5</Donut_speed_limit_low>
+    <DonutLateralGripMin>0,1</DonutLateralGripMin>
+    <Drift_angle_for_full_gas_influence>6</Drift_angle_for_full_gas_influence>
+    <Decay_rate>0,018</Decay_rate>
+    <Starting_drift_scale_after_gas_stab>0,1</Starting_drift_scale_after_gas_stab>
+    <Slip_angle_for_deep_drift>18</Slip_angle_for_deep_drift>
+    <Steering_amount_on_exit_drift>1</Steering_amount_on_exit_drift>
+    <Slip_angle_for_full_damping_fade>0</Slip_angle_for_full_damping_fade>
+    <Slip_angle_to_enter_drift_after_brake_stab>2</Slip_angle_to_enter_drift_after_brake_stab>
+    <Exit_drift_on_handbrake>True</Exit_drift_on_handbrake>
+    <Use_donut_component>True</Use_donut_component>
+</RaceVehicleDriftConfigData>
