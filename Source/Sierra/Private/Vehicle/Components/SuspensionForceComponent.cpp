@@ -92,7 +92,7 @@ FAxleForces USuspensionForceComponent::CalculateFrontSuspension(
 		.ForceLeft = SuspensionLeft->GetUpVector() * (ForceMagL + SwayForce),
 		.CompressionDistanceL = SpringForcesL.CompressionDistance,
 
-		.ForceRight = SuspensionRight->GetUpVector() * (ForceMagR + SwayForce),
+		.ForceRight = SuspensionRight->GetUpVector() * (ForceMagR - SwayForce),
 		.CompressionDistanceR = SpringForcesR.CompressionDistance,
 	};
 }
@@ -126,7 +126,7 @@ FSpringForces USuspensionForceComponent::CalculateSpringForce(
 
 	// F=-K·(1+p·x)·x	Hooke's law (F=Kx) extended for linearly progressive spring rate
 	const float CompressionDistance = FMath::Min(TraceDistance - Hit.Distance, Specs.TravelSpecs) * Hit.bBlockingHit;
-	const float SpringRate = Specs.SpringSpecs * (1.0f + (Specs.SpringProgression) * CompressionDistance);
+	const float SpringRate = Specs.SpringSpecs * (1.0f + Specs.SpringProgression * CompressionDistance);
 	const float SpringForce = -SpringRate * CompressionDistance;
 	const float ContactSpeed = (CompressionDistance - Suspension->CompressionDistance) / DeltaTime;
 	
